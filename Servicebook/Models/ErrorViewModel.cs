@@ -1,6 +1,6 @@
 using System;
 
-namespace Servicebook.Models
+namespace ServiceBook.Models
 {
     public class ErrorViewModel
     {

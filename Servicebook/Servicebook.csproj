@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-Servicebook-837E9D23-0A01-47AE-B46B-47750B9146B8</UserSecretsId>
+    <UserSecretsId>aspnet-ServiceBook-837E9D23-0A01-47AE-B46B-47750B9146B8</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 

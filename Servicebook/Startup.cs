@@ -1,4 +1,4 @@
-namespace Servicebook
+namespace ServiceBook
 {
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -7,7 +7,7 @@ namespace Servicebook
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
-    using Servicebook.Data;
+    using ServiceBook.Data;
 
     public class Startup
     {

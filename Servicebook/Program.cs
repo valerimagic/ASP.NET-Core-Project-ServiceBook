@@ -1,4 +1,4 @@
-namespace Servicebook
+namespace ServiceBook
 {
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Hosting;
