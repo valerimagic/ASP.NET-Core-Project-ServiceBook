@@ -2,6 +2,7 @@
 
 namespace ServiceBook.Infrastructures
 {
+    using System.Linq;
     using ServiceBook.Data;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.Extensions.DependencyInjection;
@@ -17,7 +18,17 @@ namespace ServiceBook.Infrastructures
 
             data.Database.Migrate();
 
+            SeedCategories(data);
+
             return app;
+        }
+
+        private static void SeedCategories(ServiceBookDbContext data)
+        {
+            if (data.Categories.Any())
+            {
+                return;
+            }
         }
     }
 }
