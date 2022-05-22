@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ServiceBook.Data.Models;
 
 namespace ServiceBook.Infrastructures
 {
@@ -29,6 +30,13 @@ namespace ServiceBook.Infrastructures
             {
                 return;
             }
+            
+            data.AddRange(new[]
+            {
+                new Category{Name = "Motor Oil"},
+                new Category{Name = "Oil Filter"},
+                new Category{Name = "Air Filter"},
+            });
         }
     }
 }
